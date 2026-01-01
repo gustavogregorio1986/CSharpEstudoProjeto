@@ -10,12 +10,12 @@ namespace pooMensagem
             Mensagem msg1, msg2;
 
             msg1 = new Mensagem();
-            msg1.TextoMensagem = "Olá, Mundo!";
+            msg1.TextoMensagem = "Olá Mundo!";
             msg1.ExibirMensagem();
 
-            msg2 = new Mensagem();
-            msg2.TextoMensagem = "Programação Orientada a Objetos";
-            msg2.ExibirMensagem();
+            //msg2 = new Mensagem();
+            //msg2.TextoMensagem = "Programação Orientada a Objetos";
+            //msg2.ExibirMensagem();
         }
     }
 }

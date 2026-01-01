@@ -8,11 +8,36 @@ namespace pooMensagem.Entidade
 {
     public class Mensagem
     {
-       public String TextoMensagem;
+        //private String TextoMensagem;
 
-       public void ExibirMensagem()
-       {
+        public void ExibirMensagem()
+        {
             Console.WriteLine(this.TextoMensagem);
         }
+
+        //public String getTextoMensagem()
+        //{
+        //     return this.TextoMensagem;
+        //}
+
+        // public void setTextoMensagem(String valor)
+        // {
+        //     this.TextoMensagem = valor.ToUpper();
+        // }
+
+        private String textoMensagem;
+
+        public String TextoMensagem
+        {
+            get 
+            { 
+                return textoMensagem; 
+            }
+            
+            set 
+            { 
+                textoMensagem = value.ToUpper().ToUpper(); 
+            }
+        }   
     }
 }
