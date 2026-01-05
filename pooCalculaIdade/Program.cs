@@ -10,11 +10,12 @@ namespace pooCalculaIdade
             Console.WriteLine("Programa que calcula a Idade de uma pessoa");
 
             Pessoa p = new Pessoa();
-            Console.WriteLine("Digite vo nome da pessoa: ");
+            Console.WriteLine("Digite o nome da pessoa: ");
             p.Nome = Console.ReadLine();
-            Console.WriteLine("Digite o anod e nascimento: ");
+            Console.WriteLine("Digite o ano de nascimento: ");
             p.AnoNascimento = int.Parse(Console.ReadLine());
-            p.ExibirDados();
+            Console.WriteLine(p.Idade); 
+            //p.ExibirDados();
 
         }
     }
