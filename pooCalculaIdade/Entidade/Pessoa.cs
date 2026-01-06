@@ -10,7 +10,15 @@ namespace pooCalculaIdade.Entidade
     {
 		private int anoNasicmento;
 
-		public int AnoNascimento
+
+        public Pessoa(String nomePessoa, int anoNascimentoPessoa)
+        {
+            this.nome = nomePessoa;
+			this.anoNasicmento = anoNascimentoPessoa;
+			this.CalcularIdade();
+        }
+
+        public int AnoNascimento
 		{
 			get { return anoNasicmento; }
 			set { this.anoNasicmento = value; }
