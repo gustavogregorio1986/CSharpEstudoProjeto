@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pooMaiorIdade", "pooMaiorId
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaRetangulo", "AreaRetangulo\AreaRetangulo.csproj", "{CA76BE8E-4E56-425F-BAB7-BAB507657402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHoraDopich", "AHoraDopich\AHoraDopich.csproj", "{62C51E2A-66CC-45F7-8929-D323E2647186}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CA76BE8E-4E56-425F-BAB7-BAB507657402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA76BE8E-4E56-425F-BAB7-BAB507657402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA76BE8E-4E56-425F-BAB7-BAB507657402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C51E2A-66CC-45F7-8929-D323E2647186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C51E2A-66CC-45F7-8929-D323E2647186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C51E2A-66CC-45F7-8929-D323E2647186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C51E2A-66CC-45F7-8929-D323E2647186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
