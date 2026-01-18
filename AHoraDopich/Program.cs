@@ -18,6 +18,11 @@ namespace AHoraDopich
 
                 alarme.Tempo = tempo;
 
+                Console.WriteLine("Informe o efeito sonoro (1 até 500): ");
+                int efeitoSonoro = int.Parse(Console.ReadLine());
+
+                alarme.EfeitoSonoro = efeitoSonoro;
+
                 alarme.Iniciar();
                 Console.WriteLine("Que pena!!! O seu tempo acabou!!");
                 Console.WriteLine("Executar o programa novamente: S/N");
