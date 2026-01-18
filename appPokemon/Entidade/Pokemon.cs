@@ -14,6 +14,12 @@ namespace pooPokemonApp.Entidade
             this.Descricao = "";
         }
 
+        public Pokemon(String nome, String descricao)
+        {
+            this.Nome = nome;
+            this.Descricao = descricao;
+        }
+
         private string nome;
 
 		public String Nome
@@ -42,6 +48,19 @@ namespace pooPokemonApp.Entidade
 		{
 			Console.WriteLine("Nome do Pkemon: " + this.Nome);
 			Console.WriteLine("Descrição: " + this.Descricao);
+        }
+
+        public void ExibirDadosPokemon(Boolean formatado)
+        {
+			if(formatado == true)
+			{
+                Console.WriteLine("Pokémon: " + this.Nome + " " + this.Descricao.ToLower());
+            }
+			else
+			{
+                Console.WriteLine("Nome do Pkemon: " + this.Nome);
+                Console.WriteLine("Descrição: " + this.Descricao);
+            }
         }
 
     }

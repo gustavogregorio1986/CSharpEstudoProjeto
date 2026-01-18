@@ -12,6 +12,9 @@ namespace pooPokemonApp
            p.Descricao = "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...";
 
            p.ExibirDadosPokemon();
+
+            Pokemon p1 = new Pokemon("Bulbasauro", "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...");
+            p1.ExibirDadosPokemon(true);
         }
     }
 }
