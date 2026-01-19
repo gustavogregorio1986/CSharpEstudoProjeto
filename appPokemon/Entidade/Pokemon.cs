@@ -54,7 +54,7 @@ namespace pooPokemonApp.Entidade
         {
 			if(formatado == true)
 			{
-                Console.WriteLine("Pokémon: " + this.Nome + " " + this.Descricao.ToLower());
+                Console.WriteLine("Pokémon: " + this.Nome + ": " + this.Descricao.ToLower());
             }
 			else
 			{

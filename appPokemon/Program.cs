@@ -7,14 +7,18 @@ namespace pooPokemonApp
     {
         static void Main(string[] args)
         {
-           Pokemon p = new Pokemon();
-           p.Nome = "Bulbasauro";
-           p.Descricao = "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...";
+            Pokedex pokedex = new Pokedex();
+            Pokemon p = pokedex.Pokeomns[1];
+            p.ExibirDadosPokemon();
 
-           p.ExibirDadosPokemon();
+            //Pokemon p = new Pokemon();
+            //p.Nome = "Bulbasauro";
+            //p.Descricao = "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...";
 
-            Pokemon p1 = new Pokemon("Bulbasauro", "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...");
-            p1.ExibirDadosPokemon(true);
+            //p.ExibirDadosPokemon();
+
+            //Pokemon p1 = new Pokemon("Bulbasauro", "Bulbasauro é um Pokémon do tipo grama/veneno da primeira geração...");
+            //p1.ExibirDadosPokemon(true);
         }
     }
 }
